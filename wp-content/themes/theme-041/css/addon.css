@@ -1,0 +1,1080 @@
+/* Home section titles */
+.news_list_01 h1, .news_list_02 h1 {
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.section_01 h1 {
+    text-transform: uppercase;
+}
+
+/* Featured articles in home */
+.big_img .img_details {
+    max-height: 150px;
+    padding: 10px;
+}
+.big_img .img_details h1 {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0 0 10px;
+}
+.big_img .img_details p {
+    font-size: 14px;
+    line-height: 18px;
+}
+.small_img .img_details {
+    max-height: 60px;
+}
+.small_img .img_details h2 {
+    font-size: 14px;
+    line-height: 15px;
+}
+
+/* Extra articles in home */
+.row-extra-articles {
+    margin-top: 30px;
+}
+
+.row-extra-articles .small_img {
+    width: auto;
+}
+
+.row-extra-articles .small_img .img_details {
+    max-height: 100px;
+}
+
+.row-extra-articles .small_img .image-holder {
+    display: block;
+    width: 239px;
+    height: 185px;
+    background: #c0c0c0;
+}
+
+/* Sponsors box */
+.widget ul.client_logo {
+    padding: 0 0 20px 0;
+}
+.widget ul.client_logo img {
+    text-align: center;
+    padding: 10px;
+    max-width: 150px;
+    vertical-align: middle;
+}
+
+/* Featured articles */
+.big_img .img_hand img {
+    height: 400px;
+}
+.small_img .img_hand img {
+    height: 185px;
+}
+
+/* Events in homepage */
+.section_01 ul.date_li li .date_img img {
+    max-width: 110px;
+    border-radius: 50%;
+}
+
+/* Events box */
+.evanto_area ul.evanto_list li h3 {
+	font-family: 'Mukta', sans-serif;
+	font-weight:600;
+	color:#1f1f1f;
+	font-size:18px;
+	line-height:20px;
+	padding:0 0 5px;
+}
+.evanto_area ul.evanto_list li h3 a {
+	font-family: 'Mukta', sans-serif;
+	font-weight:600;
+	color:#1f1f1f;
+	font-size:18px;
+	line-height:20px;
+	padding:0;
+}
+
+.evanto_area ul.evanto_list li p {
+    text-align: left;
+    padding: 0;
+}
+
+#modal-register-event .register-messages {
+    float: left;
+    margin-bottom: 10px;
+}
+
+#modal-register-event .message-success {
+    color: green;
+}
+
+#modal-register-event .message-error {
+    color: red;
+}
+
+#modal-register-event .form-row {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#modal-register-event .form-row input[type="text"],
+#modal-register-event .form-row input[type="number"] {
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+}
+
+#modal-register-event .modal-content {
+    max-width: 400px;
+}
+
+#modal-register-event .modal-content p {
+    padding-bottom: 10px;
+}
+
+
+#modal-register-event .modal-body {
+    overflow :hidden;
+}
+
+
+
+/* Sidebar widgets */
+.widget {
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.06);
+    -moz-box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.06);
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.06);
+}
+.widget h2, .widget .widget-title {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1f1f1f;
+    padding: 10px 0;
+    text-align: center;
+    background: #f9f9f9;
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.widget p {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2e2e2e;
+    padding: 0 10px;
+    text-align: center;    
+}
+.widget ul li:last-child {
+    border-bottom: none;
+}
+.widget-chart-content {
+    width: 100%;
+    padding: 20px;
+}
+.widget-chart-content img {
+    max-width: 100%;
+    max-height: 270px
+}
+    
+
+/* Twitter box */
+.latest-tweets {
+    height: 425px;
+    overflow: auto;
+}
+.latest-tweets ul li {
+	padding:10px;
+	margin:10px;
+	border-bottom:1px solid #dbdbdb;
+}
+.latest-tweets ul li:last-child {
+    margin-bottom:0;
+    border-bottom: 0;
+}
+.latest-tweets ul li h2, .latest-tweets ul li .tweet-text {
+	font-family: 'Mukta', sans-serif;
+	font-weight:600;
+	color:#1f1f1f;
+	font-size:16px;
+	line-height:18px;
+    padding:0 0 5px;
+    text-align: left;
+}
+.latest-tweets ul li .tweet-details a {
+	font-family: 'Mukta', sans-serif;
+	font-weight:500;
+	font-size:14px;
+	color:#c0c0c0;
+	line-height:18px;
+	padding-bottom:10px;
+    display:block;
+    text-align: left;
+}
+.latest-tweets ul li p, .latest-tweets ul li .tweet-details {
+	font-family: 'Catamaran', sans-serif;
+	font-weight:500;
+	font-size:12px;
+	color:#c0c0c0;
+    line-height:14px;
+    text-align: left;
+    padding: 0;
+}
+
+/* Latest interviews/stats */
+.news_list_01 ul.news_list li, .news_list_02 ul.news_list li {
+    min-height: 86px;
+}
+.news_list_01 ul.news_list li p a, .news_list_02 ul.news_list li p a {
+    color: inherit;
+    font-size: 12px;
+}
+.news_list_01 .more-link {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;
+    color: #e42320;
+    float: right;
+    text-transform: uppercase;
+    text-align: left;
+    float: left;    
+}
+
+/* Related posts box */
+.widget-related p {
+    text-align: left;
+}
+
+/* Pagination */
+.wp-pagenavi {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.wp-pagenavi span, .wp-pagenavi a {
+    padding: 10px 15px;
+    margin: 0;
+    border: 1px solid #dbdbdb;
+    color: #1f1f1f;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 16px; 
+    margin-right: 10px;   
+}
+.wp-pagenavi .current {
+    border: 1px solid #e42320;
+}
+
+/* Posts list */
+.actual_list h2 a:hover {
+    text-decoration: underline;
+}
+
+/* Post */
+.actualdetails_area ul {
+    padding-bottom: 20px;
+}
+
+.actualdetails_area ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 300;
+    color: #474747;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 0 0 20px;
+    line-height: 1.5;
+}
+.actualdetails_area ul.namedate li {
+    list-style-type: none;
+}
+.rwc_img {
+    text-align: center;
+}
+.post-tags a {
+    color: #474747;
+    font-size: 16px;
+    font-weight: normal;
+}
+.post-tags a:hover {
+    color: #246494;
+}
+.actualdetails_area h2,
+.actualdetails_area h3,
+.actualdetails_area h4 {
+    font-family: 'Catamaran', sans-serif;
+	font-weight:800;
+	color:#1f1f1f;
+	line-height:25px;
+	padding:0 0 20px;
+}
+.actualdetails_area h2 {
+    font-size: 21px;
+}
+.actualdetails_area h3 {
+    font-size: 18px;
+}
+
+/* Share buttons */
+.ssba {
+    float: left;
+    margin-bottom: 10px;
+}
+
+/* Social login */
+.wp-social-login-provider-list {
+    padding: 0 0 5px 0 !important;
+}
+
+.check-revista {
+    margin-bottom: 20px;
+}
+
+/* Conference calls */
+.conflist {
+    float: left;
+    margin-top: 50px;
+    width: 100%;
+}
+.conflist li {
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.conflist li ul li {
+    font-family: 'Mukta',sans-serif;
+    font-weight: 300;
+    color: #474747;
+    font-size: 16px;    
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.conflist h2 {
+	font-size: 18px;
+	margin:0;
+	padding: 0 0 5px;
+	line-height: 20px;
+	color:#1f1f1f;
+	font-family: 'Catamaran', sans-serif;
+	font-weight:800;
+}
+.conflist span {
+	margin:0;
+	padding:0 0 15px;
+	font-family: 'Mukta', sans-serif;
+	font-weight:400;
+	color:#aaaaaa;
+	font-size:16px;
+	display:block;
+}
+.conflist p {
+	margin:0;
+	font-family: 'Mukta', sans-serif;
+	font-weight:300;
+	color:#474747;
+	font-size:16px;
+	line-height:27px;
+}
+.conflist img {
+	float:left;
+	margin-right:30px;
+	margin-bottom:5px;
+}
+.tab-list {
+    margin: 40px 0 50px 0;
+}
+.tab-list li {
+    float: left;
+}
+.tab-list li a {
+    color: inherit;
+}
+.register-conference-message {
+    margin-top: 20px !important;
+}
+.conference_div .wp-social-login-provider-linkedin {
+    display: none;
+}
+
+/* Red button */
+.button-red {
+	padding:15px 40px;
+	margin: 0;
+	font-family: 'Catamaran', sans-serif;
+	font-weight: 500;
+	color: #fff;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 18px;
+	transition: width 0.5s ease 0s, background-color 0.5s ease 0s;
+    background: #e42320;
+    border: none;
+}
+.button-red:hover {
+    color: #fff;
+	background: #246494;
+}
+.button-red:focus, .button-red:active {
+    color: #fff;
+}
+
+/* Search form in header */
+.search-li a {
+    padding: 0 !important;
+}
+.search-li a i {
+    padding: 28px 20px;
+}
+.search-li input[type=text] {
+    font-family: 'Catamaran', sans-serif;
+}
+.search-li input[type=submit] {
+    font-family: 'Catamaran', sans-serif;
+    background-color: #246494;
+}
+
+/* Eventos */
+.legend-blue {
+	height:10px;
+	width:10px;
+	background:#246494;
+	border-radius:100%;
+	padding: 0;
+	display: inline-block;
+	margin-right: 10px;
+}
+.legend-red {
+	height:10px;
+	width:10px;
+	background:#e42320;
+	border-radius:100%;
+	padding: 0;
+	display: inline-block;
+	margin-right: 10px;
+}
+#calendar .legend-red, #calendar .legend-blue {
+    float: right;
+    margin-right: 5px;
+}
+.events-calendar {
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+}
+.events-calendar ul li div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+#calendar .header i {
+    color: #000;
+}
+div#calendar ul.dates li span.text {
+    margin-top: 0;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;   
+    padding-top: 15px; 
+}
+#calendar .weekend {
+    display: none !important;
+}
+div#calendar ul.dates li {
+    width: 20%;
+    height: 120px;
+    line-height: 1.1;
+    display: table;
+    position: relative    
+}
+div#calendar ul.label li {
+    width: 20%;
+}
+div#calendar ul.dates li span.number {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #474747;
+}
+div#calendar .legend {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+div#calendar ul.dates li.end {
+    width: 20.3%;
+    border-right: none;
+}
+div#calendar ul li span.pro {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 35px;
+    height: 19px;
+    background: url("../images/logo-pro.png") no-repeat; 
+}
+
+
+/* Single event */ 
+#fotos-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.evantos_area ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 300;
+    color: #474747;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 0 10px 20px;
+}
+.evantos_area ul.ponentes_list li {
+    list-style-type: none;
+}
+
+/* Event gallery */
+.owl-pagination {
+    display: none;
+}
+
+/* Tooltipster */
+.tooltipster-shadow .tooltipster-content h4 {
+    font-family: 'Catamaran', sans-serif !important;
+    font-size: 18px;
+    color: #000;
+    font-weight: normal;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+.tooltipster-shadow .tooltipster-content p {
+    font-family: 'Mukta', sans-serif !important;
+    font-size: 14px;
+    color: #474747;
+    margin: 10px 0;
+}
+
+/* Events in home */
+.section_01 ul.date_li li {
+    width: 119px;
+}
+.section_01 ul.date_li li h2 {
+    font-family: 'Mukta', sans-serif !important;    
+    font-size: 22px;
+    color: #246494;
+}
+.section_01 ul.date_li li h3 {
+    font-family: 'Mukta', sans-serif !important;    
+    font-size: 16px;
+}
+.section_01 ul.date_li li a {
+    color: inherit;
+}
+
+/* Newsletter box */
+.newslater input[type="email"] {
+	width:100%;
+	height:40px;
+	background:none;
+	border:1px solid #ccc;
+	font-family: 'Mukta', sans-serif;
+	font-weight:300;
+	font-size:14px;
+	color:#c0c0c0;
+	padding:0 100px 0 10px;
+}
+#mce-error-response {
+
+}
+#mce-success-response {
+    text-align: left;
+    margin-top: 10px;
+}
+#mc_embed_signup div.mce_inline_error {
+    margin: 10px 0 0 0 !important;
+    background-color: #e42320 !important;
+}
+
+/* Social icons in footer */
+.footer .icons-medium {
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin: 0 0 30px;
+}
+
+.footer .icons-medium li {
+    padding: 0;
+    margin: 0 20px 0 0;
+    float: left;
+}
+
+/* Footer menu */
+.ft_menu {
+    overflow: hidden;
+}
+
+/* Colaboradores page */
+.colab_img {
+    float: left;
+    width: 20%;
+}
+.colab_details {
+    float: left;
+    width: 80%;
+    padding-left: 20px;
+}
+
+/* Quienes somos page */
+.staff-member {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Common styles */
+.nopadding {
+    padding: 0 !important;
+}
+
+/* Banners */
+.addbanner .textwidget div {
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.widget_text {
+    border: none;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0);
+}
+.widget_text .textwidget div {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.main_header .addbanner {
+    margin-bottom: 20px;
+}
+
+.banners-wrapper {
+    position: fixed;
+    width: 1146px;   
+}
+
+.banner-160x600 {
+    position: absolute;
+    top: 1em;
+    width: 160px;
+}
+
+.banner-160x600-left {
+    left: -180px;
+}
+
+.banner-160x600-right {
+    right: -180px;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    max-width: 1146px;
+    z-index: 9;
+}
+
+.fixed-banner {
+    position: fixed;
+    top: 100px;
+    z-index: 2;
+}
+
+.container-banner-footer {
+    margin-bottom: 50px;
+}
+
+.no-padding-top {
+    padding-top: 0;
+}
+
+
+.no-padding-left {
+    padding-left: 0;
+}
+
+.no-padding-right {
+    padding-right: 0;
+}
+
+.padding-top-150 {
+    padding-top: 150px;
+}
+
+
+/* Subscription box */
+.mc-checkbox {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.post-authors {
+    float: left;
+    width: 100%;
+}
+
+.articulas_autor {
+    float: left;
+    width: 100%;
+    margin-top: 0;
+    max-width: 500px;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+
+.author-img {
+    float: left;
+    width: 22%;
+}
+
+.articulas_autor_img {
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+}
+
+.articulas_autor_img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.articulas_autor_details {
+    float: left;
+    width: 75%;
+}
+
+.articulas_autor_details a {
+    padding: 15px;
+}
+
+.authors-initials {
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+.authors-initials a {
+    font-size: 18px;
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+.actualdetails_area .articulas_autor_details h6 {
+    padding-bottom: 10px;
+}
+
+.author-left {
+    float: left;
+    width: 60%;
+    padding-top: 20px;
+}
+
+.author-right {
+    float: left;
+    width: 35%;
+    margin-left: 5%;
+    padding-top: 25px;
+}
+
+.author-title {
+    float: left;
+    width: 100%;
+}
+
+.post-author-col .author-left {
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 0;
+} 
+
+.post-author-col .author-right {
+    width: 100%;
+    padding-left: 15px;
+    margin-left: 0;
+    padding-top: 10px;
+} 
+
+.post-author-col .author-img {
+    width: 30%;
+}
+
+.post-author-col .articulas_autor_details {
+    width: 70%;
+}
+
+.post-author-col .articulas_autor_details p {
+    padding-bottom: 10px;
+}
+
+.actualdetails_area h1 {
+    padding: 0;
+}
+
+.actualdetails_area ul.namedate {
+    float: right;
+    margin: 0;
+}
+
+.actualdetails_area ul.namedate li {
+    margin: 0 0 0 20px;
+}
+
+
+
+
+/* Magazines */
+.col-magazines h2 {
+    color: #1f1f1f;
+    font-family: 'Catamaran',sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 20px;
+    padding: 0 0 20px;
+    border-bottom: 1px solid #c0c0c0;    
+    margin-bottom: 20px;
+}
+
+.list-magazine {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.list-magazine h3 {
+    font-family: 'Mukta',sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.featured-events {
+    text-align: center;
+    padding-bottom: 10px !important;
+}
+
+.featured-events img {
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/************************ 8 - Wordpress styles ****************************/
+
+/* Begin Images */
+p img { padding: 0; max-width: 100%; height: auto; }
+/*	Using 'class="alignright"' on an image will (who would've thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using align="center", being much more futureproof (and valid) */
+img.centered { display: block; margin-left: auto; margin-right: auto; }
+img.alignright { padding: 4px; margin: 0 0 0 25px; display: inline; }
+img.alignleft { padding: 4px; margin: 0 25px 0 0; display: inline; }
+.alignright { float: right; }
+.alignleft { float: left; }
+/* End Images */
+
+/* Captions */
+.aligncenter, div.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.wp-caption { margin: 0 0 18px; }
+	.wp-caption.alignleft { max-width: 62%; margin: 0 22px 0 0; }
+	.wp-caption.alignright { max-width: 62%; margin: 0 0 0 22px; }
+.wp-caption img { margin: 0; padding: 0; border: 0 none; }
+.wp-caption p.wp-caption-text { font-size: 74%; padding: 6px 0; margin: 0; border-bottom: 1px solid #000; font-style: italic; line-height: 1.1; }
+/* End captions */
+
+
+
+
+/* Media queries */
+@media only screen and (max-width: 1199px) {
+
+    .fixed-header {
+        max-width: 970px;
+    }
+
+    .banner-160x600 {
+        display: none;
+    }    
+
+}
+
+@media only screen and (max-width: 479px) and (min-width: 320px) {
+
+    .bodycontent {
+        padding-top: 20px;
+    }
+
+    .main_nav .navbar-nav li {
+        background: #246494;
+    }
+
+    .main_nav .navbar-nav li a,
+    .main_nav .navbar-nav li a:active,
+    .main_nav .navbar-nav li a:focus {
+        color: #fff !important;
+    }
+
+    .navbar-nav {
+        margin: 100px 0 0 0;
+    }
+
+    .img_details h1,
+    .img_details h2 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .img_details.right_details {
+        padding: 0;
+    }
+
+    .img_hand {
+        margin-top: 25px;
+    }
+
+    .big_img .img_hand img,
+    .small_img .img_hand img {
+        width: 100%;
+        height: auto;
+    }
+
+    .right_news {
+        margin-top: 30px;
+    }
+
+    .footer {
+        padding: 0 0 30px 0;
+    }
+
+    .footer h1 {
+        clear: both;
+        padding-top: 30px;
+    }
+
+    .actual_area ul.actual_list {
+        padding: 0;
+    }
+
+    .actual_area h1 {
+        font-size: 20px;
+    }
+
+    .actualdetails_area h1 {
+        font-size: 20px;
+    }
+
+    .sidebar {
+        margin-top: 30px;
+    }
+
+    div#calendar div.header a.prev {
+        left: 25%;
+    }
+
+    div#calendar div.header a.next {
+        right: 25%;
+    }
+
+    div#calendar ul.dates li span.text {
+        margin-top: 0;
+        font-size: 14px;
+        line-height: 1;
+    }
+
+    .cookie-bar-bar .ctcc-inner {
+        display: block !important;
+    }
+
+    .cookie-bar-bar .ctcc-inner .ctcc-left-side,
+    .cookie-bar-bar .ctcc-inner .ctcc-right-side {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .cookie-bar-bar .ctcc-inner .ctcc-right-side {
+        text-align: center;
+    }
+
+    .cookie-bar-bar .ctcc-inner .ctcc-right-side button {
+        margin: 0 !important;
+    }
+
+    .colab_img img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    div#calendar ul.dates li {
+        padding: 0;
+    }
+
+    div#calendar ul.dates li span.text {
+        font-size: 12px;
+        word-wrap: break-word;
+    }
+
+    .section_01 ul.date_li li {
+        margin: 0 2% 60px;
+        float: left;
+        width: 45%;
+        display: block;
+    }    
+
+    .section_01 ul.date_li li:nth-child(5) {
+        float: none;
+        display: inline-block;
+    }
+
+    .section_01 ul.date_li li:last-child {
+        margin-right: 0;
+    }
+
+    .no-padding-left {
+        padding-left: 15px;
+    }
+
+    .no-padding-right {
+        padding-right: 15px;
+    }
+
+    .row-extra-articles .small_img .image-holder {
+        width: 100%;
+        height: 185px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) and (min-width: 320px) {
+
+    div#calendar ul.dates li span.text {
+        font-size: 10px;
+    }
+
+}
